@@ -24,13 +24,17 @@ body{
 
 h3{
     color: var(--Light-Blue, #CAC9FF);
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Hanken Grotesk';
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     padding-top: 24px;
+}
+
+.seccontainer{
+    height: 453px;
 }
 
 .circle{
