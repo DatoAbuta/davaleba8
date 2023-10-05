@@ -1,8 +1,163 @@
-@media (width > 1440)
-{
+@media (width > 1440px){
+    body{
+        display: flex;
+        padding: 284px 352px;
+        justify-content: center;
+        align-items: center;
+        background: var(--Very-Light-blue, #ECF2FF);
+    }
     .buttoni:hover{
         cursor: pointer;
         background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
     }
+    .box{
+        text-align: center;
+        background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+        width: 368px;
+        height: 512px;
+        border-radius: 32px;
+    }
+    .container{
+        background-color: #FFF;
+        display: flex;
+        border-radius: 32px;
+    }
+    .buttoni{
+        border-radius: 128px;
+        background: var(--Dark-Navy, #303B59);
+        width: 315px;
+        height: 56px;
+        margin: 41px 30px 0 30px;
+        background: var(--Dark-Navy, #303B59);
+    }
+    h3{
+        color: var(--Light-Blue, #CAC9FF);
+        text-align: center;
+        font-family: 'Hanken Grotesk';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 24px;
+    }
+    h5{
+        font-family: 'Hanken Grotesk';
+        font-size: 72px;
+        font-weight: 800;
+        line-height: 72px;
+        color: #fff;
+        margin: 55px 60px 4px 59px;
+    }
+    .of100{
+        color: var(--Light-Blue, #CAC9FF);
+        font-family: Hanken Grotesk;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        opacity: 0.5168;
+        margin: 0 75px 46px 73px;
+    }
+    .great{
+        color: var(--White, #FFF);
+        text-align: center;
+        font-family: Hanken Grotesk;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: flex;
+        width: 83px;
+        height: 42px;
+    }
+    .yourperf{
+        color: var(--Light-Blue, #CAC9FF);
+        text-align: center;
+        font-family: Hanken Grotesk;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        width: 360px;
+        height: 69px;
+        margin: 14px 54px 55px 54px;
+    }
+    .summary{
+        color: var(--Dark-Navy, #303B59);
+        font-family: Hanken Grotesk;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0px 265px 24px 32px;
+    }
+    .react{
+        color: var(--Red, #F55);
+        font-family: Hanken Grotesk;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-left: 12px;
+        padding-right: 81px;
+    }
+    .brain{
+        color: var(--Yellow, #FFB21E);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Hanken Grotesk;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-left: 12px;
+        padding-right: 84px;
+    }
+    .chatremove{
+        color: var(--Green, #00BB8F);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Hanken Grotesk;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-left: 12px;
+        padding-right: 99px;
+    }
+    .eyeempty{
+        color: var(--Blue, #1125D6);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Hanken Grotesk;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-left: 12px;
+        padding-right: 102px;
+    }
+    .pirveli{
+        color: var(--Dark-Navy, #303B59);
+        text-align: right;
+        font-family: Hanken Grotesk;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
     
+    .meore{
+        color: var(--Dark-Navy, #303B59);
+        text-align: right;
+        font-family: Hanken Grotesk;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .seccontainer{
+        width: 368px;
+        border-radius: 32px;
+    }
+    .circle{
+        width: 200px;
+        height: 200px;
+    }
 }
