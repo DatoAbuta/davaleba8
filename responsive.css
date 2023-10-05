@@ -1,0 +1,8 @@
+@media (width > 1440)
+{
+    .buttoni:hover{
+        cursor: pointer;
+        background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+    }
+    
+}

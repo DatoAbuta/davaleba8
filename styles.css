@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--Very-Light-blue, #ECF2FF);
+    height: 100vh;
+}
+
+.container{
+    background-color: #FFF;
+}
+
+.box{
+    text-align: center;
+    background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+    width: 100%;
+    height: 356px;
+    border-radius: 0px 0px 32px 32px;
+}
+
+h3{
+    color: var(--Light-Blue, #CAC9FF);
+    text-align: center;
+    font-family: 'Hanken Grotesk';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 24px;
+}
+
+.circle{
+    margin: 24px 117px 24px 118px;
+    padding: 25px 39px 22px 38px;
+    background-image:linear-gradient( #4d21c9 0%, rgba(37, 33, 201, 0) 100%, rgba(128, 127, 202, 0) 100%);
+    border-radius: 50%;
+}
+
+h5{
+    font-family: 'Hanken Grotesk';
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 72px;
+    color: #fff;
+}
+
+.of100{
+    color: var(--Light-Blue, #CAC9FF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Hanken Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.5168;
+}
+
+.zemot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qvemot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{
+    color: var(--Light-Blue, #CAC9FF);
+    text-align: center;
+    font-family: Hanken Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    width: 400px;
+    padding: 8px 57px 40px 48px;
+}
+
+.great{
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Hanken Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    width: 63px;
+    height: 31px;
+}
+
+.summary{
+    color: var(--Dark-Navy, #303B59);
+    font-family: Hanken Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px 265px 24px 32px;
+}
+
+.flex{
+    display: flex;
+}
+
+.box-1{
+    width: 315px;
+    height: 56px;
+    margin: 0px 30px 16px 30px;
+    border-radius: 12px;
+    background: var(--red-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55);
+    padding: 17px 12px 19px 16px;
+    display: flex;
+    text-align: center;
+}
+
+.box-2{
+    width: 315px;
+    height: 56px;
+    margin: 0px 30px 16px 30px;
+    border-radius: 12px;
+    padding: 17px 12px 19px 16px;
+    display: flex;
+    text-align: center;
+}
+
+.img1{
+    width: 20px;
+}
+
+.react{
+    color: var(--Red, #F55);
+    font-family: Hanken Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 12px;
+    padding-right: 124px;
+}
+.brain{
+    color: var(--Yellow, #FFB21E);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Hanken Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 12px;
+    padding-right: 127px;
+}
+.chatremove{
+    color: var(--Green, #00BB8F);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Hanken Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 12px;
+    padding-right: 139px;
+}
+.eyeempty{
+    color: var(--Blue, #1125D6);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Hanken Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 12px;
+    padding-right: 143px;
+}
+
+.pirveli{
+    color: var(--Dark-Navy, #303B59);
+    text-align: right;
+    font-family: Hanken Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.meore{
+    color: var(--Dark-Navy, #303B59);
+    text-align: right;
+    font-family: Hanken Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.marjvenamxare{
+    gap: 8px;
+    display: flex;
+}
+
+.buttoni{
+    border-radius: 128px;
+    background: var(--Dark-Navy, #303B59);
+    width: 315px;
+    height: 56px;
+    display: flex;
+    margin: 0 30px;
+    background: var(--Dark-Navy, #303B59);
+}
+
+.buttontext{
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Hanken Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 17px 120px 16px 120px;
+}
